@@ -20,7 +20,9 @@
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 #include <string.h>
-#include <MD_MIDIFile.h>
+#include <FS.h>
+#include <SPIFFS.h>
+#include <MD_MIDIFileSPIFF.h>
 #include "MD_MIDIHelper.h"
 
 /**

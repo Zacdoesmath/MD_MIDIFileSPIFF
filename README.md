@@ -1,4 +1,7 @@
-## MD_MIDIFile Standard MIDI File Interpreter Library
+## MD_MIDIFileSPIFF Standard MIDI File Interpreter Library
+
+Building on MD_MIDIFile and aiming to add functionality with SPIFF memory on a Nano ESP32
+
 
 [![arduino-library-badge](https://www.ardu-badge.com/badge/MD_MIDIFile.svg?)](https://www.ardu-badge.com/MD_MIDIFile)
 
@@ -9,6 +12,7 @@ This library allows Standard MIDI Files (SMF) to be read from an SD card and pla
 
 External dependencies:
 * *SdFat* library found [here](https://github.com/greiman?tab=repositories) used by the library to read SMF from the the SD card.
+SPIFFS library
 * *MIDI interface hardware* as described in the library documentation or similar, a USB interface with converter or a MIDI shield.
 
 If you like and use this library please consider making a small donation using [PayPal](https://paypal.me/MajicDesigns/4USD)
